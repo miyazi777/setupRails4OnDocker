@@ -29,7 +29,7 @@ docker toolboxがインストールされていること
 ## 停止
 ./stop.shで停止
 
-## DBについて
+## mysqlについて
 rootユーザーのパスワードはroot
 もし、ホスト側にmysqlのクライアントがインストールされているのであれば、以下のコマンドでDBを操作できます
 mysql -h <ip-addoress> -uroot -proot 
